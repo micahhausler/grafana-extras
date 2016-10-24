@@ -9,7 +9,8 @@ and adds several additional [plugins](https://grafana.net/plugins)
 * mtanda-histogram-panel
 * briangann-gauge-panel
 
-If you change the `GF_PATHS_PLUGINS` environment variable, none of the plugins will be available.
+If you change the `GF_PATHS_PLUGINS` environment variable, none of the plugins
+will be available, and you might as well use the `grafana/grafana` image.
 
 ## License
 MIT License. See [License](/LICENSE) for full text
