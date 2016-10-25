@@ -12,5 +12,8 @@ and adds several additional [plugins](https://grafana.net/plugins)
 If you change the `GF_PATHS_PLUGINS` environment variable, none of the plugins
 will be available, and you might as well use the `grafana/grafana` image.
 
+If you change the `GF_PLUGIN_PIECHART` environment variable, the piechart
+will not be work.
+
 ## License
 MIT License. See [License](/LICENSE) for full text
